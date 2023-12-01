@@ -16,5 +16,6 @@ export class TuitsEntity {
 
   @Column({ type: 'numeric', nullable: false })
   año: number;
+  users: any;
 
 }
